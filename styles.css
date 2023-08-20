@@ -670,7 +670,7 @@ color: #D4AF37;
 }
   .grid {
         grid-template-columns: 1fr;
-        gap: 2%;
+        gap: 1%;
     }   
    
   .menu{
@@ -686,28 +686,59 @@ color: #D4AF37;
 
 @media only screen and (max-width: 425px) {
 
+.link{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+  @keyframes movinglogo {
+    from { width: 0 }
+    to { width: 61% }} 
+
   
     .container {
-        max-width: 90%;
+        max-width: 98%;
     }
+.card{
+padding-bottom: 20px;
+}
+  
 
-    .card {
-        padding: 10px 0px;
-    }
+.grid {
+  gap: 1%;
+}
 
-    .card_body {
-        padding: 1px;
-    }
-
-    .card_title {
-        font-size: 20px;
-        padding-bottom: 7px;
+    .card_title{
+        font-size: 5px;
+        padding-bottom: 1px;
     }
     .animated-word, .slogan{
       font-size: 20px;
     }
-   
+  .card_img{
+    height: 300px;
+    padding: 0px;
+  }
+   .read_more{
+    padding-bottom: 10px;
+
+   }
+   .link {
+    
+  padding: 1px 22px;
   
+}
+
+.contact-container{
+  padding: 50px 10px;
+}
+.footer{
+  padding: 9px;
+}
+nav{
+padding: 10px;
+}
+nav .menu-btn i{
+  font-size: 40px}
 }
   
  
