@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="index.html"><img src="img/logo.jpg" alt="logo" class="logo"></a></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</li></a>
+          <li><a href="despre_noi.html">Despre noi</li></a>
+          <li><a href="contact.html">Contact</li></a>
+          <li><div class="box"><input type="text" placeholder="Cauta produsul"><a href="index.html"><i class="fas fa-search"></i></a></div></li>
+         </ul>    
+    </nav>
+    <div class="container"> 
+        <div class="animated-word">
+            <h1 class="letters">CHARMBOX</h1>                     
+        </div>
+        <div class="slogan">Gifts with a Touch of Charm</div>
+        <div class="filter">           
+        <label for="type-filter"> Tip Bijuterie: </label>
+        <select id="type-filter">
+            <option value="">Toate</option>
+            <option value="bratara">Inel</option>
+            <option value="colier">Colier</option>
+            <option value="cercei">Cercei</option>
+            <option value="bratara">Bratara</option>
+        </select>
+        
+        <label for="material-filter"> Material: </label>
+        <select id="material-filter">
+            <option value="">Toate</option>
+            <option value="aur">Aur</option>
+            <option value="argint">Argint</option>
+            <option value="otel">Oțel</option>
+        </select>
+        <button class="search_button" id="search_button">Cauta</button>
+    </div>
+        <div class="grid">  
+            <div class="card">
+                <div class="card_img">
+                    <img src="img/ring_1.jpg" alt="ring_1">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Inel aur 14k</h2>
+                    <p>Inel din aur galben de 14K pentru un stil modern si rafinat.  </p>
+                    <p class="card_author">by <a href="despre_noi.html" class="author_link">Charmbox</a></p>
+                    <p class="price"><b>Pret: 13.700 lei</b></p>
+                    <a href="ring_1.html" class="read_more">Detalii</a>              
+                </div>
+            </div>
+               <div class="card">
+                <div class="card_img">
+                    <img src="img/bratara_1.jpg" alt="bratara_1">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Bratara diamante 1ct</h2>
+                    <p>Bratara indrazneata iti complimenteaza orice look. </p>
+                    <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                    <p class="price"><b>Pret: 13.900 lei</b></p>
+                    <a href="bracelet_1.html" class="read_more">Detalii</a>
+                </div>
+        </div>
+        <div class="card">
+            <div class="card_img">
+                <img src="img/cercei_1.jpg" alt="cercei_1">
+            </div>
+            <div class="card_body">
+                <h2 class="card_title">Cercei diamante 1.78ct</h2>
+                <p>Cerceii imbina echilibrat stralucirea cu eleganta.  </p>
+                <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                <p class="price"><b>Pret: 24.200 lei</b></p>
+                <a href="earrings_1.html" class="read_more">Detalii</a>
+            </div>
+    </div>
+        <div class="card">
+                <div class="card_img">
+                    <img src="img/colier_1.jpg" alt="colier_1">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Lant pandantiv 0.84ct</h2>
+                    <p>Lant cu pandantiv din aur, cu diamante de 0.84ct. </p>
+                    <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                    <p class="price"><b>Pret: 16.200 lei</b></p>
+                    <a href="necklace_1.html" class="read_more">Detalii</a>
+                </div>
+        </div>     
+        <div class="card">
+                    <div class="card_img">                   
+                        <img src="img/ring_2.jpg" alt="ring_2">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Inel diamante 0.29ct</h2>
+                        <p>Inel din aur roz cu diamante de 0.29ct creat din pasiune. </p>
+                        <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                        <p class="price"><b>Pret: 12.700 lei</b></p>
+                        <a href="ring_2.html" class="read_more">Detalii</a>
+                    </div>
+        </div>
+        <div class="card">
+            <div class="card_img">
+                <img src="img/bratara_2.jpg" alt="bratara_2">
+            </div>
+            <div class="card_body">
+                <h2 class="card_title">Bratara diamante 4.02ct</h2>
+                <p>Bratara cu diamante de 4.02ct exprima frumusetea ta.</p>
+                <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                <p class="price"><b>Pret: 94.800 lei</b></p>
+                <a href="bracelet_2.html" class="read_more">Detalii</a>
+            </div>   
+    </div>
+    <div class="card">
+                <div class="card_img">
+                    <img src="img/ring_1.jpg" alt="ring_1">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Inel aur 14k</h2>
+                    <p>Inel din aur galben de 14K pentru un stil modern si rafinat.  </p>
+                    <p class="card_author">by <a href="despre_noi.html" class="author_link">Charmbox</a></p>
+                    <p class="price"><b>Pret: 13.700 lei</b></p>
+                    <a href="ring_1.html" class="read_more">Detalii</a> 
+                </div>
+            </div>
+               <div class="card">
+                <div class="card_img">
+                    <img src="img/bratara_1.jpg" alt="bratara_1">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Bratara diamante 1ct</h2>
+                    <p>Bratara indrazneata iti complimenteaza orice look. </p>
+                    <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                    <p class="price"><b>Pret: 13.900 lei</b></p>
+                    <a href="bracelet_1.html" class="read_more">Detalii</a>
+                </div>
+        </div>
+        <div class="card">
+            <div class="card_img">
+                <img src="img/cercei_1.jpg" alt="cercei_1">
+            </div>
+            <div class="card_body">
+                <h2 class="card_title">Cercei diamante 1.78ct</h2>
+                <p>Cerceii imbina echilibrat stralucirea cu eleganta.  </p>
+                <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                <p class="price"><b>Pret: 24.200 lei</b></p>
+                <a href="earrings_1.html" class="read_more">Detalii</a>
+            </div>
+    </div>
+        <div class="card">
+                <div class="card_img">
+                    <img src="img/colier_1.jpg" alt="colier_1">
+                </div>
+                <div class="card_body">
+                    <h2 class="card_title">Lant pandantiv 0.84ct</h2>
+                    <p>Lant cu pandantiv din aur, cu diamante de 0.84ct. </p>
+                    <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                    <p class="price"><b>Pret: 16.200 lei</b></p>
+                    <a href="necklace_1.html" class="read_more">Detalii</a>
+                </div>
+        </div>
+        
+        <div class="card">
+                    <div class="card_img">
+                       
+                        <img src="img/ring_2.jpg" alt="ring_2">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Inel diamante 0.29ct</h2>
+                        <p>Inel din aur roz cu diamante de 0.29ct creat din pasiune. </p>
+                        <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                        <p class="price"><b>Pret: 12.700 lei</b></p>
+                        <a href="ring_2.html" class="read_more">Detalii</a>
+                    </div>
+        </div> 
+        <div class="card">
+            <div class="card_img">
+                <img src="img/bratara_2.jpg" alt="bratara_2">
+            </div>
+            <div class="card_body">
+                <h2 class="card_title">Bratara diamante 4.02ct</h2>
+                <p>Bratara cu diamante de 4.02ct exprima frumusetea ta.</p>
+                <p class="card_author">by <a href="despre_mine.html" class="author_link">Charmbox</a></p>
+                <p class="price"><b>Pret: 94.800 lei</b></p>
+                <a href="bracelet_2.html" class="read_more">Detalii</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.youtube.com/" target="_blank" class="link">Watch on youtube <i class="fab fa-youtube"></i></a>
+    <div class="media-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>  
+        <h5> &copy;Copyright 2023 by Charmbox. All rights reserved.</h5>
+    </div>               
+</body>
+</html>
