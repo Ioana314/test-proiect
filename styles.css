@@ -318,7 +318,7 @@ padding: 20px;
   text-align: center;
 }
 .content{
- color:#D4AF37 ;
+ color:white;
  font-size: large;
 }
 
@@ -353,14 +353,14 @@ padding: 20px;
 
 .contact-container{
     
-    width: 90%;
+    width: 95%;
     background: #fff;
     border-radius: 20px;
     margin: 3%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 100px 10px;
     background: linear-gradient(45deg, #dfd9b4, #FFEA80, #D4AF37, #cca113);
     background-size: 400% 400%;
     animation: glowing 3s linear infinite;
@@ -679,8 +679,6 @@ color: #D4AF37;
         padding-bottom: 5px;
         text-align: center;
     }
- 
-
   
 }
 
@@ -708,12 +706,29 @@ padding-bottom: 20px;
 }
 
     .card_title{
-        font-size: 5px;
+        font-size: 25px;
         padding-bottom: 1px;
     }
-    .animated-word, .slogan{
-      font-size: 20px;
+    .card_p{
+      font-size: 0px;
     }
+    .animated-word{
+      font-size: 30px;
+    }
+    .slogan{
+      font-size: 20px;
+      padding-top: 20px;
+    }
+    .specifications-table{
+      width: 100%;
+    }
+
+    .product-info h2{
+      font-size: 15px;}
+
+      .product-info h3{
+        padding-top: 5px;
+      }
   .card_img{
     height: 300px;
     padding: 0px;
@@ -730,17 +745,41 @@ padding-bottom: 20px;
 
 .contact-container{
   padding: 50px 10px;
+  width: 96%;
+}
+.topic-text{
+  padding-bottom: 50px;
 }
 .footer{
   padding: 9px;
 }
 nav{
-padding: 10px;
+padding: 20px;
 }
 nav .menu-btn i{
   font-size: 40px}
-}
+
+  .search_button{
+    padding: 10px}
+
+    .product-images {
+      display: block; /* Afisează pozele sub altele */
+      max-width: 95%; /* Setează lățimea maximă */
+      margin: 0 auto 20px; /* Ajustează marginul pentru a centra imaginile */
+    }
   
+    .product-images img {
+      max-width: 100%; /* Imaginile ocupă toată lățimea containerului */
+      margin-bottom: 10px; /* Spațiu între poze */
+    }
+
+    .about-us {
+      background-size: cover;
+      }
+      .content{
+        padding: 2px 20px;
+      }
+}
  
 
 
